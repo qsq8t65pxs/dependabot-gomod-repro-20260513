@@ -2,6 +2,7 @@ version: 2
 updates:
   - package-ecosystem: gomod
     directory: /
+    # Trigger an immediate re-check after publishing a new upstream tag.
     schedule:
       interval: daily
     labels:
