@@ -2,7 +2,7 @@ version: 2
 updates:
   - package-ecosystem: gomod
     directory: /
-    # Trigger another immediate re-check after the Go proxy starts serving the new tag.
+    # Trigger another immediate re-check after the Go proxy starts serving v0.1.2.
     schedule:
       interval: daily
     labels:
